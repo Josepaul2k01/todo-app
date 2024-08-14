@@ -87,5 +87,8 @@ git clone https://github.com/Josepaul2k01/todo-app.git
 cd todo-app
 
 
+username - admin
+password - password
+
 
 
