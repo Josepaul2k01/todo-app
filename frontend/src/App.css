@@ -1,0 +1,217 @@
+/* src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+}
+
+h1, h2 {
+  color: #444;
+  margin-bottom: 25px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #008080;
+  padding-bottom: 10px;
+}
+
+button {
+  padding: 12px 18px;
+  margin: 5px 0;
+  background-color: #008080; /* Teal color */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #006666; /* Darker teal for hover effect */
+  transform: translateY(-2px);
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  border-color: #008080;
+  outline: none;
+}
+
+.todo-item {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.todo-item:last-child {
+  border-bottom: none;
+}
+
+.todo-item:hover {
+  background-color: #f1f1f1;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item span {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.todo-item button {
+  margin-right: 10px;
+}
+
+.todo-form, .project-form {
+  margin-bottom: 25px;
+}
+
+.error-message {
+  color: #d9534f; /* Red with better visibility */
+  margin-bottom: 20px;
+  background-color: #fbe3e4;
+  padding: 10px;
+  border-radius: 8px;
+  border-left: 5px solid #d9534f;
+}
+
+.navbar {
+  background-color: #008080; /* Teal color */
+  padding: 15px 25px;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 10px 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #f0f0f0;
+}
+
+.navbar .links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logout-container {
+  margin-right: auto; /* Push logout to the far right */
+}
+
+.logout-container button {
+  background-color: #f28b82; /* Light red background */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-weight: bold;
+}
+
+.logout-container button:hover {
+  background-color: #d1605d; /* Darker red for hover effect */
+  transform: translateY(-2px);
+}
+/* src/App.css */
+
+.list-container {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.list-container:hover {
+  transform: translateY(-5px);
+}
+
+.list-container h2 {
+  margin-bottom: 20px;
+  color: #444;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #008080;
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-item {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.list-item:hover {
+  background-color: #f1f1f1;
+  transform: translateY(-3px);
+}
+
+.list-item h3 {
+  margin: 0;
+  color: #333;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+
+.list-item p {
+  margin: 5px 0 0;
+  color: #666;
+  font-size: 0.9em;
+}
+
+
+/* src/App.css */

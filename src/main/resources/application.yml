@@ -1,0 +1,18 @@
+# application.yml
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/todoapp # MongoDB connection URI
+  security:
+    user:
+      name: admin # Default username for basic auth
+      password: password # Default password for basic auth
+
+server:
+  port: 8080 # Server port
+
+logging:
+  level:
+    root: INFO
+
