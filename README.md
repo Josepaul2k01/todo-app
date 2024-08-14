@@ -51,6 +51,9 @@ This project is a full-stack web application that combines a Spring Boot backend
 ### 4. Todo List Page
 ![Todo List](todo-screenshots/project-view.png)
 
+### 4. Export Summary
+![Todo List](todo-screenshots/export-summary.png)
+
 ## Prerequisites
 
 Before running this project, ensure you have the following installed:
